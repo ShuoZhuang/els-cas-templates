@@ -1,0 +1,8 @@
+CMIG / Elsevier Highlights
+==========================
+
+- Directed ordinal tokens exchange continuous predecessor messages
+- The graph jointly predicts clean tokens in a conditional diffusion sampler
+- The graph exceeds flat parallel macro-F1 in three development runs
+- Grade-specific gains are mixed relative to autoregressive prediction
+- External evaluation reveals shifted boundaries between neighboring grades

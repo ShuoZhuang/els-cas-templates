@@ -1,0 +1,140 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\csgdef{mark@corau3}{1}
+\emailauthor{TBC}{Corresponding Author (TBC)}
+\NewLabel{aff1}{a}
+\NewLabel{aff2}{b}
+\citation{wilkinson2003}
+\citation{gulshan2016,ting2017}
+\citation{araujo2020drgraduate,sun2021lat,huang2025drctfn}
+\citation{men2025drstagenet,che2023gdrnet,wei2024caudr,chokuwa2025dg}
+\citation{cao2020coral,shi2023corn}
+\citation{wang2023ord2seq}
+\citation{yu2025aordr}
+\citation{zhou2023retfound}
+\citation{yu2026diffgeo}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:introduction}{{1}{1}{Introduction}{section.1}{}}
+\citation{winder2009}
+\citation{gulshan2016,ting2017}
+\citation{sun2021lat,huang2021lesioncl}
+\citation{araujo2020drgraduate,huang2025drctfn}
+\citation{hu2023noisy}
+\citation{dosovitskiy2021vit}
+\citation{oquab2024dinov2}
+\citation{zhou2023retfound}
+\citation{cao2020coral,shi2023corn,toledo2022dqor}
+\citation{wang2023ord2seq}
+\citation{che2023gdrnet}
+\citation{wei2024caudr}
+\citation{huang2023components}
+\citation{yu2025aordr}
+\citation{yu2026diffgeo}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related work}{2}{section.2}\protected@file@percent }
+\newlabel{sec:related}{{2}{2}{Related work}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Retinal grading and pretrained encoders}{2}{subsection.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Ordinal and diffusion-based prediction}{2}{subsection.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Materials and methods}{2}{section.5}\protected@file@percent }
+\newlabel{sec:methods}{{3}{2}{Materials and methods}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Problem formulation and ordinal encoding}{2}{subsection.6}\protected@file@percent }
+\newlabel{eq:tokens}{{1}{2}{Problem formulation and ordinal encoding}{equation.7}{}}
+\citation{ho2020ddpm,song2021ddim}
+\citation{nichol2021improved}
+\newlabel{eq:factorization}{{2}{3}{Problem formulation and ordinal encoding}{equation.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Framework overview}{3}{subsection.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Retinal feature encoder}{3}{subsection.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Conditional diffusion over ordinal tokens}{3}{subsection.11}\protected@file@percent }
+\newlabel{eq:forward}{{3}{3}{Conditional diffusion over ordinal tokens}{equation.12}{}}
+\newlabel{eq:diff}{{4}{3}{Conditional diffusion over ordinal tokens}{equation.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Token prediction structures}{3}{subsection.14}\protected@file@percent }
+\newlabel{sec:structures}{{3.5}{3}{Token prediction structures}{subsection.14}{}}
+\@writefile{toc}{\contentsline {paragraph}{Autoregressive predictor}{3}{section*.15}\protected@file@percent }
+\citation{che2023gdrnet,gdrbenchguide}
+\citation{messidor2resource}
+\citation{googlebraingrades,krause2018reference}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Joint directed ordinal-token diffusion. Four cumulative targets define threshold nodes that indicate whether the grade exceeds each boundary. During training, noise is added to these tokens. The conditional denoiser jointly updates all four nodes through three directed message blocks and predicts clean tokens and variance parameters. Inference averages five 100-step samples before thresholding and summation.}}{4}{figure.20}\protected@file@percent }
+\newlabel{fig:method}{{1}{4}{Joint directed ordinal-token diffusion. Four cumulative targets define threshold nodes that indicate whether the grade exceeds each boundary. During training, noise is added to these tokens. The conditional denoiser jointly updates all four nodes through three directed message blocks and predicts clean tokens and variance parameters. Inference averages five 100-step samples before thresholding and summation}{figure.20}{}}
+\@writefile{toc}{\contentsline {paragraph}{Unstructured parallel predictor}{4}{section*.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Directed-graph predictor}{4}{section*.17}\protected@file@percent }
+\newlabel{eq:graph}{{5}{4}{Directed-graph predictor}{equation.18}{}}
+\citation{aptos2019,liu2022deepdrid}
+\citation{gdrbenchguide}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Pooled grade distributions across the locally available MESSIDOR, APTOS, and DEEPDR manifests. The logarithmic axis shows the concentration of samples in the lower and middle grades and the scarcity of high-severity cases.}}{5}{figure.23}\protected@file@percent }
+\newlabel{fig:distribution}{{2}{5}{Pooled grade distributions across the locally available MESSIDOR, APTOS, and DEEPDR manifests. The logarithmic axis shows the concentration of samples in the lower and middle grades and the scarcity of high-severity cases}{figure.23}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Datasets and preprocessing}{5}{subsection.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Training, inference, and evaluation protocol}{5}{subsection.24}\protected@file@percent }
+\citation{yu2025aordr}
+\citation{yu2025aordr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Ethics and consent}{6}{subsection.25}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments and results}{6}{section.26}\protected@file@percent }
+\newlabel{sec:results}{{4}{6}{Experiments and results}{section.26}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Comparison with published and internal baselines}{6}{subsection.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Retinal representation and freezing depth}{6}{subsection.34}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Per-grade behavior}{6}{subsection.35}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Grade-1 interventions and mechanism-oriented ablations}{6}{subsection.38}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Published and current MESSIDOR results. Published values are taken from the AOR-DR comparison and use its evaluation protocol; QWK was not reported. Current RETFound values are mean $\pm $ sample standard deviation over three runs. Results from different protocols are not directly comparable.}}{7}{table.29}\protected@file@percent }
+\newlabel{tab:overall}{{1}{7}{Published and current MESSIDOR results. Published values are taken from the AOR-DR comparison and use its evaluation protocol; QWK was not reported. Current RETFound values are mean $\pm $ sample standard deviation over three runs. Results from different protocols are not directly comparable}{table.29}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Structural ablation of token prediction under the same RETFound encoder and development protocol. Autoregression is sequential, the parallel MLP predicts all tokens jointly without explicit edges, and the graph combines joint output with directed predecessor messages. Values are mean $\pm $ sample standard deviation over three runs. The flat and graph predictors are not parameter-matched edge ablations.}}{7}{table.31}\protected@file@percent }
+\newlabel{tab:main}{{2}{7}{Structural ablation of token prediction under the same RETFound encoder and development protocol. Autoregression is sequential, the parallel MLP predicts all tokens jointly without explicit edges, and the graph combines joint output with directed predecessor messages. Values are mean $\pm $ sample standard deviation over three runs. The flat and graph predictors are not parameter-matched edge ablations}{table.31}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Exploratory external-domain evaluation}{7}{subsection.41}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Token-structure comparison and freezing-depth selection. (a) Mean scores and sample standard deviations over three runs, with circles showing individual runs. (b) Paired differences relative to the directed graph, with diamonds showing mean differences. (c) The RETFound autoregressive freezing-depth screen; each point is one run and the dashed line marks the selected setting.}}{8}{figure.33}\protected@file@percent }
+\newlabel{fig:structure_freezing}{{3}{8}{Token-structure comparison and freezing-depth selection. (a) Mean scores and sample standard deviations over three runs, with circles showing individual runs. (b) Paired differences relative to the directed graph, with diamonds showing mean differences. (c) The RETFound autoregressive freezing-depth screen; each point is one run and the dashed line marks the selected setting}{figure.33}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Recall for each MESSIDOR grade. RETFound autoregression (AR) and directed-graph values are mean $\pm $ sample standard deviation over three runs, computed from the unrounded confusion-matrix counts. The ViT-B reference is a single historical run.}}{8}{table.37}\protected@file@percent }
+\newlabel{tab:pergrade}{{3}{8}{Recall for each MESSIDOR grade. RETFound autoregression (AR) and directed-graph values are mean $\pm $ sample standard deviation over three runs, computed from the unrounded confusion-matrix counts. The ViT-B reference is a single historical run}{table.37}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Multi-source training}{8}{subsection.46}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Data integrity and duplicate sensitivity}{8}{subsection.47}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Hypothesis-driven ablations relative to one directed-graph run. Rebalancing and geometry are separately trained variants. Fixed-small variance changes only inference for the reference checkpoint.}}{9}{table.40}\protected@file@percent }
+\newlabel{tab:ablation}{{4}{9}{Hypothesis-driven ablations relative to one directed-graph run. Rebalancing and geometry are separately trained variants. Fixed-small variance changes only inference for the reference checkpoint}{table.40}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces External-domain results. Panel (a) compares one fixed directed-graph checkpoint across three datasets. Panel (b) compares autoregressive and directed predictors on DEEPDR. These are single-run exploratory results without uncertainty intervals.}}{9}{figure.43}\protected@file@percent }
+\newlabel{fig:domain}{{4}{9}{External-domain results. Panel (a) compares one fixed directed-graph checkpoint across three datasets. Panel (b) compares autoregressive and directed predictors on DEEPDR. These are single-run exploratory results without uncertainty intervals}{figure.43}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}Limitations}{9}{subsection.50}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Exploratory transfer of fixed MESSIDOR-trained checkpoints. Macro-F1 measures class-balanced recognition, while QWK tests whether ordinal agreement remains despite shifted grade boundaries.}}{10}{table.45}\protected@file@percent }
+\newlabel{tab:external}{{5}{10}{Exploratory transfer of fixed MESSIDOR-trained checkpoints. Macro-F1 measures class-balanced recognition, while QWK tests whether ordinal agreement remains despite shifted grade boundaries}{table.45}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Fixed-checkpoint sensitivity of the single-source graph to byte-identical file exclusions. Values are original $\rightarrow $ filtered evaluation protocols, without retraining.}}{10}{table.49}\protected@file@percent }
+\newlabel{tab:dedup}{{6}{10}{Fixed-checkpoint sensitivity of the single-source graph to byte-identical file exclusions. Values are original $\rightarrow $ filtered evaluation protocols, without retraining}{table.49}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{10}{section.51}\protected@file@percent }
+\newlabel{sec:conclusion}{{5}{10}{Conclusion}{section.51}{}}
+\bibstyle{cas-model2-names}
+\bibdata{references}
+\bibcite{messidor2resource}{{1}{n.d.}{{ADCIS}}{{}}}
+\bibcite{araujo2020drgraduate}{{2}{2020}{{Ara{\'u}jo et~al.}}{{Ara{\'u}jo, Aresta, Mendon{\c {c}}a, Penas, Maia, Carneiro, Mendon{\c {c}}a and Campilho}}}
+\bibcite{aptos2019}{{3}{2019}{{Asia Pacific Tele-Ophthalmology Society}}{{}}}
+\bibcite{cao2020coral}{{4}{2020}{{Cao et~al.}}{{Cao, Mirjalili and Raschka}}}
+\bibcite{che2023gdrnet}{{5}{2023}{{Che et~al.}}{{Che, Cheng, Jin and Chen}}}
+\bibcite{gdrbenchguide}{{6}{n.d.}{{Che et~al.}}{{Che, Cheng, Jin and Chen}}}
+\bibcite{chokuwa2025dg}{{7}{2025}{{Chokuwa and Khan}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Definitions of exploratory ablations}{11}{appendix.56}\protected@file@percent }
+\newlabel{app:ablations}{{A}{11}{Definitions of exploratory ablations}{appendix.56}{}}
+\@writefile{toc}{\contentsline {paragraph}{Grade-1 sampling}{11}{section*.57}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Rank geometry}{11}{section*.58}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Fixed-small inference variance}{11}{section*.59}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{AR feedback sensitivity}{11}{section*.60}\protected@file@percent }
+\bibcite{dosovitskiy2021vit}{{8}{2021}{{Dosovitskiy et~al.}}{{}}}
+\bibcite{googlebraingrades}{{9}{n.d.}{{Google Brain}}{{}}}
+\bibcite{gulshan2016}{{10}{2016}{{Gulshan et~al.}}{{Gulshan, Peng, Coram, Stumpe, Wu, Narayanaswamy, Venugopalan, Widner, Madams, Cuadros, Kim, Raman, Nelson, Mega and Webster}}}
+\bibcite{ho2020ddpm}{{11}{2020}{{Ho et~al.}}{{Ho, Jain and Abbeel}}}
+\bibcite{hu2023noisy}{{12}{2023}{{Hu et~al.}}{{Hu, Yang, Guo, Zhang, Liu, Wang and Li}}}
+\bibcite{huang2025drctfn}{{13}{2025}{{Huang et~al.}}{{Huang, Ai, She, Li, Wei, Xu, Lu and Zeng}}}
+\bibcite{huang2023components}{{14}{2023}{{Huang et~al.}}{{Huang, Lin, Cheng, Lyu, Tam and Tang}}}
+\bibcite{huang2021lesioncl}{{15}{2021}{{Huang et~al.}}{{Huang, Lin, Cheng, Lyu and Tang}}}
+\bibcite{krause2018reference}{{16}{2018}{{Krause et~al.}}{{Krause, Gulshan, Rahimy, Karth, Widner, Corrado, Peng and Webster}}}
+\bibcite{liu2022deepdrid}{{17}{2022}{{Liu et~al.}}{{}}}
+\bibcite{men2025drstagenet}{{18}{2025}{{Men et~al.}}{{Men, Fhima, Celi, Ribeiro, Nakayama and Behar}}}
+\bibcite{nichol2021improved}{{19}{2021}{{Nichol and Dhariwal}}{{}}}
+\bibcite{oquab2024dinov2}{{20}{2024}{{Oquab et~al.}}{{Oquab, Darcet, Moutakanni et~al.}}}
+\bibcite{shi2023corn}{{21}{2023}{{Shi et~al.}}{{Shi, Cao and Raschka}}}
+\bibcite{song2021ddim}{{22}{2021}{{Song et~al.}}{{Song, Meng and Ermon}}}
+\bibcite{sun2021lat}{{23}{2021}{{Sun et~al.}}{{Sun, Li, Zhang, Mao, Wu and Zhang}}}
+\bibcite{ting2017}{{24}{2017}{{Ting et~al.}}{{Ting, Cheung, Lim, Tan, Quang, Gan, Hamzah, Garcia-Franco, San~Yeo, Lee et~al.}}}
+\bibcite{toledo2022dqor}{{25}{2022}{{Toledo-Cort{\'e}s et~al.}}{{Toledo-Cort{\'e}s, Useche, M{\"u}ller and Gonz{\'a}lez}}}
+\bibcite{wang2023ord2seq}{{26}{2023}{{Wang et~al.}}{{}}}
+\bibcite{wei2024caudr}{{27}{2024}{{Wei et~al.}}{{Wei, Shi, Miao, Zhang, Bai, Qiu, Liu and Yuan}}}
+\bibcite{wilkinson2003}{{28}{2003}{{Wilkinson et~al.}}{{Wilkinson, Ferris, Klein, Lee, Agardh, Davis, Dills, Kampik, Pararajasegaram and Verdaguer}}}
+\bibcite{winder2009}{{29}{2009}{{Winder et~al.}}{{Winder, Morrow, McRitchie, Bailie and Hart}}}
+\bibcite{yu2026diffgeo}{{30}{2026}{{Yu et~al.}}{{Yu, Zhao, Xu, Wang, Zhao, Fu, Ye, Villavicencio, Lip, Zheng and Meng}}}
+\bibcite{yu2025aordr}{{31}{2025}{{Yu et~al.}}{{Yu, Zhou, Liu, Xu, Wang, Zhao, Fu, Ye, Zheng and Meng}}}
+\bibcite{zhou2023retfound}{{32}{2023}{{Zhou et~al.}}{{}}}
+\csxdef{lastpage}{12}
+\gdef \@abspage@last{13}

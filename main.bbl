@@ -1,0 +1,340 @@
+\begin{thebibliography}{32}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Misc
+\bibitem[{{ADCIS}(n.d.)}]{messidor2resource}
+\bibinfo{author}{{ADCIS}}, \bibinfo{year}{n.d.}
+\newblock \bibinfo{title}{{Messidor-2} dataset}.
+\newblock \URLprefix \url{https://www.adcis.net/en/third-party/messidor2/}.
+  \bibinfo{note}{accessed 16 October 2026}.
+%Type = Article
+\bibitem[{Ara{\'u}jo et~al.(2020)Ara{\'u}jo, Aresta, Mendon{\c{c}}a, Penas,
+  Maia, Carneiro, Mendon{\c{c}}a and Campilho}]{araujo2020drgraduate}
+\bibinfo{author}{Ara{\'u}jo, T.}, \bibinfo{author}{Aresta, G.},
+  \bibinfo{author}{Mendon{\c{c}}a, L.}, \bibinfo{author}{Penas, S.},
+  \bibinfo{author}{Maia, C.}, \bibinfo{author}{Carneiro, {\^A}.},
+  \bibinfo{author}{Mendon{\c{c}}a, A.M.}, \bibinfo{author}{Campilho, A.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{{DR|GRADUATE}: Uncertainty-aware deep learning-based
+  diabetic retinopathy grading in eye fundus images}.
+\newblock \bibinfo{journal}{Medical Image Analysis} \bibinfo{volume}{63},
+  \bibinfo{pages}{101715}.
+\newblock \DOIprefix\doi{10.1016/j.media.2020.101715}.
+%Type = Misc
+\bibitem[{{Asia Pacific Tele-Ophthalmology Society}(2019)}]{aptos2019}
+\bibinfo{author}{{Asia Pacific Tele-Ophthalmology Society}},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{{APTOS} 2019 blindness detection}.
+\newblock \bibinfo{howpublished}{Kaggle competition dataset}.
+\newblock \URLprefix
+  \url{https://www.kaggle.com/c/aptos2019-blindness-detection}.
+%Type = Article
+\bibitem[{Cao et~al.(2020)Cao, Mirjalili and Raschka}]{cao2020coral}
+\bibinfo{author}{Cao, W.}, \bibinfo{author}{Mirjalili, V.},
+  \bibinfo{author}{Raschka, S.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Rank consistent ordinal regression for neural
+  networks with application to age estimation}.
+\newblock \bibinfo{journal}{Pattern Recognition Letters} \bibinfo{volume}{140},
+  \bibinfo{pages}{325--331}.
+\newblock \DOIprefix\doi{10.1016/j.patrec.2020.11.008}.
+%Type = Inproceedings
+\bibitem[{Che et~al.(2023)Che, Cheng, Jin and Chen}]{che2023gdrnet}
+\bibinfo{author}{Che, H.}, \bibinfo{author}{Cheng, Y.}, \bibinfo{author}{Jin,
+  H.}, \bibinfo{author}{Chen, H.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Towards generalizable diabetic retinopathy grading in
+  unseen domains}, in: \bibinfo{booktitle}{Medical Image Computing and Computer
+  Assisted Intervention -- MICCAI 2023}, \bibinfo{publisher}{Springer}. pp.
+  \bibinfo{pages}{430--440}.
+\newblock \DOIprefix\doi{10.1007/978-3-031-43904-9_42}.
+%Type = Misc
+\bibitem[{Che et~al.(n.d.)Che, Cheng, Jin and Chen}]{gdrbenchguide}
+\bibinfo{author}{Che, H.}, \bibinfo{author}{Cheng, Y.}, \bibinfo{author}{Jin,
+  H.}, \bibinfo{author}{Chen, H.}, \bibinfo{year}{n.d.}
+\newblock \bibinfo{title}{{GDRBench}: Dataset preparation guide}.
+\newblock \bibinfo{howpublished}{Official GDRNet repository}.
+\newblock \URLprefix \url{https://github.com/chehx/DGDR/tree/main/GDRBench}.
+  \bibinfo{note}{accessed 16 October 2026}.
+%Type = Inproceedings
+\bibitem[{Chokuwa and Khan(2025)}]{chokuwa2025dg}
+\bibinfo{author}{Chokuwa, S.}, \bibinfo{author}{Khan, M.H.},
+  \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Divergent domains, convergent grading: Enhancing
+  generalization in diabetic retinopathy grading}, in:
+  \bibinfo{booktitle}{Proceedings of the IEEE/CVF Winter Conference on
+  Applications of Computer Vision}, pp. \bibinfo{pages}{3667--3677}.
+%Type = Misc
+\bibitem[{Dosovitskiy et~al.(2021)}]{dosovitskiy2021vit}
+\bibinfo{author}{Dosovitskiy, A.}, et~al., \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{An image is worth 16x16 words: Transformers for image
+  recognition at scale}.
+\newblock \bibinfo{howpublished}{International Conference on Learning
+  Representations}.
+\newblock \href{http://arxiv.org/abs/2010.11929}{\tt arXiv:2010.11929}.
+%Type = Misc
+\bibitem[{{Google Brain}(n.d.)}]{googlebraingrades}
+\bibinfo{author}{{Google Brain}}, \bibinfo{year}{n.d.}
+\newblock \bibinfo{title}{{MESSIDOR-2 DR Grades}: Adjudicated dr severity, dme,
+  and gradability}.
+\newblock \bibinfo{howpublished}{Kaggle dataset}.
+\newblock \URLprefix
+  \url{https://www.kaggle.com/datasets/google-brain/messidor2-dr-grades}.
+  \bibinfo{note}{grade metadata and accompanying README accessed 16 October
+  2026}.
+%Type = Article
+\bibitem[{Gulshan et~al.(2016)Gulshan, Peng, Coram, Stumpe, Wu, Narayanaswamy,
+  Venugopalan, Widner, Madams, Cuadros, Kim, Raman, Nelson, Mega and
+  Webster}]{gulshan2016}
+\bibinfo{author}{Gulshan, V.}, \bibinfo{author}{Peng, L.},
+  \bibinfo{author}{Coram, M.}, \bibinfo{author}{Stumpe, M.C.},
+  \bibinfo{author}{Wu, D.}, \bibinfo{author}{Narayanaswamy, A.},
+  \bibinfo{author}{Venugopalan, S.}, \bibinfo{author}{Widner, K.},
+  \bibinfo{author}{Madams, T.}, \bibinfo{author}{Cuadros, J.},
+  \bibinfo{author}{Kim, R.}, \bibinfo{author}{Raman, R.},
+  \bibinfo{author}{Nelson, P.C.}, \bibinfo{author}{Mega, J.L.},
+  \bibinfo{author}{Webster, D.R.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Development and validation of a deep learning
+  algorithm for detection of diabetic retinopathy in retinal fundus
+  photographs}.
+\newblock \bibinfo{journal}{JAMA} \bibinfo{volume}{316},
+  \bibinfo{pages}{2402--2410}.
+\newblock \DOIprefix\doi{10.1001/jama.2016.17216}.
+%Type = Inproceedings
+\bibitem[{Ho et~al.(2020)Ho, Jain and Abbeel}]{ho2020ddpm}
+\bibinfo{author}{Ho, J.}, \bibinfo{author}{Jain, A.}, \bibinfo{author}{Abbeel,
+  P.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Denoising diffusion probabilistic models}, in:
+  \bibinfo{booktitle}{Advances in Neural Information Processing Systems}, pp.
+  \bibinfo{pages}{6840--6851}.
+%Type = Article
+\bibitem[{Hu et~al.(2023)Hu, Yang, Guo, Zhang, Liu, Wang and Li}]{hu2023noisy}
+\bibinfo{author}{Hu, T.}, \bibinfo{author}{Yang, B.}, \bibinfo{author}{Guo,
+  J.}, \bibinfo{author}{Zhang, W.}, \bibinfo{author}{Liu, H.},
+  \bibinfo{author}{Wang, N.}, \bibinfo{author}{Li, H.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{A fundus image classification framework for learning
+  with noisy labels}.
+\newblock \bibinfo{journal}{Computerized Medical Imaging and Graphics}
+  \bibinfo{volume}{108}, \bibinfo{pages}{102278}.
+\newblock \DOIprefix\doi{10.1016/j.compmedimag.2023.102278}.
+%Type = Article
+\bibitem[{Huang et~al.(2025)Huang, Ai, She, Li, Wei, Xu, Lu and
+  Zeng}]{huang2025drctfn}
+\bibinfo{author}{Huang, X.}, \bibinfo{author}{Ai, Z.}, \bibinfo{author}{She,
+  C.}, \bibinfo{author}{Li, Q.}, \bibinfo{author}{Wei, Q.},
+  \bibinfo{author}{Xu, S.}, \bibinfo{author}{Lu, Y.}, \bibinfo{author}{Zeng,
+  F.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{A {CNN}-transformer fusion network for diabetic
+  retinopathy image classification}.
+\newblock \bibinfo{journal}{Computerized Medical Imaging and Graphics}
+  \bibinfo{volume}{126}, \bibinfo{pages}{102655}.
+\newblock \DOIprefix\doi{10.1016/j.compmedimag.2025.102655}.
+%Type = Article
+\bibitem[{Huang et~al.(2023)Huang, Lin, Cheng, Lyu, Tam and
+  Tang}]{huang2023components}
+\bibinfo{author}{Huang, Y.}, \bibinfo{author}{Lin, L.}, \bibinfo{author}{Cheng,
+  P.}, \bibinfo{author}{Lyu, J.}, \bibinfo{author}{Tam, R.C.},
+  \bibinfo{author}{Tang, X.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Identifying the key components in {ResNet-50} for
+  diabetic retinopathy grading from fundus images: A systematic investigation}.
+\newblock \bibinfo{journal}{Diagnostics} \bibinfo{volume}{13},
+  \bibinfo{pages}{1664}.
+\newblock \DOIprefix\doi{10.3390/diagnostics13101664}.
+%Type = Inproceedings
+\bibitem[{Huang et~al.(2021)Huang, Lin, Cheng, Lyu and
+  Tang}]{huang2021lesioncl}
+\bibinfo{author}{Huang, Y.}, \bibinfo{author}{Lin, L.}, \bibinfo{author}{Cheng,
+  P.}, \bibinfo{author}{Lyu, J.}, \bibinfo{author}{Tang, X.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Lesion-based contrastive learning for diabetic
+  retinopathy grading from fundus images}, in: \bibinfo{booktitle}{Medical
+  Image Computing and Computer Assisted Intervention -- MICCAI 2021},
+  \bibinfo{publisher}{Springer}. pp. \bibinfo{pages}{113--123}.
+\newblock \DOIprefix\doi{10.1007/978-3-030-87196-3_11}.
+%Type = Article
+\bibitem[{Krause et~al.(2018)Krause, Gulshan, Rahimy, Karth, Widner, Corrado,
+  Peng and Webster}]{krause2018reference}
+\bibinfo{author}{Krause, J.}, \bibinfo{author}{Gulshan, V.},
+  \bibinfo{author}{Rahimy, E.}, \bibinfo{author}{Karth, P.},
+  \bibinfo{author}{Widner, K.}, \bibinfo{author}{Corrado, G.S.},
+  \bibinfo{author}{Peng, L.}, \bibinfo{author}{Webster, D.R.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Grader variability and the importance of reference
+  standards for evaluating machine learning models for diabetic retinopathy}.
+\newblock \bibinfo{journal}{Ophthalmology} \bibinfo{volume}{125},
+  \bibinfo{pages}{1264--1272}.
+\newblock \DOIprefix\doi{10.1016/j.ophtha.2018.01.034}.
+%Type = Article
+\bibitem[{Liu et~al.(2022)}]{liu2022deepdrid}
+\bibinfo{author}{Liu, R.}, et~al., \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Deepdrid: Diabetic retinopathy---grading and image
+  quality estimation challenge}.
+\newblock \bibinfo{journal}{Patterns} \bibinfo{volume}{3}.
+\newblock \DOIprefix\doi{10.1016/j.patter.2022.100512}.
+%Type = Article
+\bibitem[{Men et~al.(2025)Men, Fhima, Celi, Ribeiro, Nakayama and
+  Behar}]{men2025drstagenet}
+\bibinfo{author}{Men, Y.}, \bibinfo{author}{Fhima, J.}, \bibinfo{author}{Celi,
+  L.A.}, \bibinfo{author}{Ribeiro, L.Z.}, \bibinfo{author}{Nakayama, L.F.},
+  \bibinfo{author}{Behar, J.A.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Deep learning generalization for diabetic retinopathy
+  staging from fundus images}.
+\newblock \bibinfo{journal}{Physiological Measurement} \bibinfo{volume}{46}.
+\newblock \DOIprefix\doi{10.1088/1361-6579/ada86a}.
+%Type = Inproceedings
+\bibitem[{Nichol and Dhariwal(2021)}]{nichol2021improved}
+\bibinfo{author}{Nichol, A.Q.}, \bibinfo{author}{Dhariwal, P.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Improved denoising diffusion probabilistic models},
+  in: \bibinfo{booktitle}{Proceedings of the 38th International Conference on
+  Machine Learning}, \bibinfo{publisher}{PMLR}. pp.
+  \bibinfo{pages}{8162--8171}.
+\newblock \URLprefix \url{https://proceedings.mlr.press/v139/nichol21a.html}.
+%Type = Article
+\bibitem[{Oquab et~al.(2024)Oquab, Darcet, Moutakanni et~al.}]{oquab2024dinov2}
+\bibinfo{author}{Oquab, M.}, \bibinfo{author}{Darcet, T.},
+  \bibinfo{author}{Moutakanni, T.}, et~al., \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{{DINOv2}: Learning robust visual features without
+  supervision}.
+\newblock \bibinfo{journal}{Transactions on Machine Learning Research}
+  \URLprefix \url{https://openreview.net/forum?id=a68SUt6zFt}.
+%Type = Article
+\bibitem[{Shi et~al.(2023)Shi, Cao and Raschka}]{shi2023corn}
+\bibinfo{author}{Shi, X.}, \bibinfo{author}{Cao, W.}, \bibinfo{author}{Raschka,
+  S.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Deep neural networks for rank-consistent ordinal
+  regression based on conditional probabilities}.
+\newblock \bibinfo{journal}{Pattern Analysis and Applications}
+  \bibinfo{volume}{26}, \bibinfo{pages}{941--955}.
+\newblock \DOIprefix\doi{10.1007/s10044-023-01181-9}.
+%Type = Misc
+\bibitem[{Song et~al.(2021)Song, Meng and Ermon}]{song2021ddim}
+\bibinfo{author}{Song, J.}, \bibinfo{author}{Meng, C.}, \bibinfo{author}{Ermon,
+  S.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Denoising diffusion implicit models}.
+\newblock \bibinfo{howpublished}{International Conference on Learning
+  Representations}.
+\newblock \href{http://arxiv.org/abs/2010.02502}{\tt arXiv:2010.02502}.
+%Type = Inproceedings
+\bibitem[{Sun et~al.(2021)Sun, Li, Zhang, Mao, Wu and Zhang}]{sun2021lat}
+\bibinfo{author}{Sun, R.}, \bibinfo{author}{Li, Y.}, \bibinfo{author}{Zhang,
+  T.}, \bibinfo{author}{Mao, Z.}, \bibinfo{author}{Wu, F.},
+  \bibinfo{author}{Zhang, Y.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Lesion-aware transformers for diabetic retinopathy
+  grading}, in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF Conference on
+  Computer Vision and Pattern Recognition}, pp. \bibinfo{pages}{10938--10947}.
+\newblock \DOIprefix\doi{10.1109/CVPR46437.2021.01079}.
+%Type = Article
+\bibitem[{Ting et~al.(2017)Ting, Cheung, Lim, Tan, Quang, Gan, Hamzah,
+  Garcia-Franco, San~Yeo, Lee et~al.}]{ting2017}
+\bibinfo{author}{Ting, D.S.W.}, \bibinfo{author}{Cheung, C.Y.L.},
+  \bibinfo{author}{Lim, G.}, \bibinfo{author}{Tan, G.S.W.},
+  \bibinfo{author}{Quang, N.D.}, \bibinfo{author}{Gan, A.},
+  \bibinfo{author}{Hamzah, H.}, \bibinfo{author}{Garcia-Franco, R.},
+  \bibinfo{author}{San~Yeo, I.}, \bibinfo{author}{Lee, S.Y.}, et~al.,
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Development and validation of a deep learning system
+  for diabetic retinopathy and related eye diseases using retinal images from
+  multiethnic populations with diabetes}.
+\newblock \bibinfo{journal}{JAMA} \bibinfo{volume}{318},
+  \bibinfo{pages}{2211--2223}.
+\newblock \DOIprefix\doi{10.1001/jama.2017.18152}.
+%Type = Article
+\bibitem[{Toledo-Cort{\'e}s et~al.(2022)Toledo-Cort{\'e}s, Useche, M{\"u}ller
+  and Gonz{\'a}lez}]{toledo2022dqor}
+\bibinfo{author}{Toledo-Cort{\'e}s, S.}, \bibinfo{author}{Useche, D.H.},
+  \bibinfo{author}{M{\"u}ller, H.}, \bibinfo{author}{Gonz{\'a}lez, F.A.},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Grading diabetic retinopathy and prostate cancer
+  diagnostic images with deep quantum ordinal regression}.
+\newblock \bibinfo{journal}{Computers in Biology and Medicine}
+  \bibinfo{volume}{145}, \bibinfo{pages}{105472}.
+\newblock \DOIprefix\doi{10.1016/j.compbiomed.2022.105472}.
+%Type = Inproceedings
+\bibitem[{Wang et~al.(2023)}]{wang2023ord2seq}
+\bibinfo{author}{Wang, Y.}, et~al., \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Ord2seq: Regarding ordinal regression as label
+  sequence prediction}, in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF
+  International Conference on Computer Vision}, pp.
+  \bibinfo{pages}{5842--5852}.
+%Type = Article
+\bibitem[{Wei et~al.(2024)Wei, Shi, Miao, Zhang, Bai, Qiu, Liu and
+  Yuan}]{wei2024caudr}
+\bibinfo{author}{Wei, H.}, \bibinfo{author}{Shi, P.}, \bibinfo{author}{Miao,
+  J.}, \bibinfo{author}{Zhang, M.}, \bibinfo{author}{Bai, G.},
+  \bibinfo{author}{Qiu, J.}, \bibinfo{author}{Liu, F.}, \bibinfo{author}{Yuan,
+  W.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{{CauDR}: A causality-inspired domain generalization
+  framework for fundus-based diabetic retinopathy grading}.
+\newblock \bibinfo{journal}{Computers in Biology and Medicine}
+  \bibinfo{volume}{175}, \bibinfo{pages}{108459}.
+\newblock \DOIprefix\doi{10.1016/j.compbiomed.2024.108459}.
+%Type = Article
+\bibitem[{Wilkinson et~al.(2003)Wilkinson, Ferris, Klein, Lee, Agardh, Davis,
+  Dills, Kampik, Pararajasegaram and Verdaguer}]{wilkinson2003}
+\bibinfo{author}{Wilkinson, C.P.}, \bibinfo{author}{Ferris, F.L.},
+  \bibinfo{author}{Klein, R.E.}, \bibinfo{author}{Lee, P.P.},
+  \bibinfo{author}{Agardh, C.D.}, \bibinfo{author}{Davis, M.},
+  \bibinfo{author}{Dills, D.}, \bibinfo{author}{Kampik, A.},
+  \bibinfo{author}{Pararajasegaram, R.}, \bibinfo{author}{Verdaguer, J.T.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Proposed international clinical diabetic retinopathy
+  and diabetic macular edema disease severity scales}.
+\newblock \bibinfo{journal}{Ophthalmology} \bibinfo{volume}{110},
+  \bibinfo{pages}{1677--1682}.
+\newblock \DOIprefix\doi{10.1016/S0161-6420(03)00475-5}.
+%Type = Article
+\bibitem[{Winder et~al.(2009)Winder, Morrow, McRitchie, Bailie and
+  Hart}]{winder2009}
+\bibinfo{author}{Winder, R.J.}, \bibinfo{author}{Morrow, P.J.},
+  \bibinfo{author}{McRitchie, I.N.}, \bibinfo{author}{Bailie, J.R.},
+  \bibinfo{author}{Hart, P.M.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Algorithms for digital image processing in diabetic
+  retinopathy}.
+\newblock \bibinfo{journal}{Computerized Medical Imaging and Graphics}
+  \bibinfo{volume}{33}, \bibinfo{pages}{608--622}.
+\newblock \DOIprefix\doi{10.1016/j.compmedimag.2009.06.003}.
+%Type = Article
+\bibitem[{Yu et~al.(2026)Yu, Zhao, Xu, Wang, Zhao, Fu, Ye, Villavicencio, Lip,
+  Zheng and Meng}]{yu2026diffgeo}
+\bibinfo{author}{Yu, Q.}, \bibinfo{author}{Zhao, H.}, \bibinfo{author}{Xu, Y.},
+  \bibinfo{author}{Wang, M.}, \bibinfo{author}{Zhao, Y.}, \bibinfo{author}{Fu,
+  H.}, \bibinfo{author}{Ye, X.}, \bibinfo{author}{Villavicencio, A.},
+  \bibinfo{author}{Lip, G.Y.H.}, \bibinfo{author}{Zheng, Y.},
+  \bibinfo{author}{Meng, Y.}, \bibinfo{year}{2026}.
+\newblock \bibinfo{title}{{DiffGeo-AOR}: Diffusion-optimized medical grading
+  via geometric priors enhanced autoregressive ordinal regression}.
+\newblock \bibinfo{journal}{IEEE Transactions on Medical Imaging}
+  \bibinfo{volume}{45}, \bibinfo{pages}{4846--4860}.
+\newblock \DOIprefix\doi{10.1109/TMI.2026.3710844}.
+%Type = Inproceedings
+\bibitem[{Yu et~al.(2025)Yu, Zhou, Liu, Xu, Wang, Zhao, Fu, Ye, Zheng and
+  Meng}]{yu2025aordr}
+\bibinfo{author}{Yu, Q.}, \bibinfo{author}{Zhou, W.}, \bibinfo{author}{Liu,
+  H.}, \bibinfo{author}{Xu, Y.}, \bibinfo{author}{Wang, M.},
+  \bibinfo{author}{Zhao, Y.}, \bibinfo{author}{Fu, H.}, \bibinfo{author}{Ye,
+  X.}, \bibinfo{author}{Zheng, Y.}, \bibinfo{author}{Meng, Y.},
+  \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Parameterized diffusion optimization enabled
+  autoregressive ordinal regression for diabetic retinopathy grading}, in:
+  \bibinfo{booktitle}{Medical Image Computing and Computer Assisted
+  Intervention -- MICCAI 2025}, pp. \bibinfo{pages}{450--460}.
+\newblock \href{http://arxiv.org/abs/2507.04978}{\tt arXiv:2507.04978}.
+%Type = Article
+\bibitem[{Zhou et~al.(2023)}]{zhou2023retfound}
+\bibinfo{author}{Zhou, Y.}, et~al., \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{A foundation model for generalizable disease
+  detection from retinal images}.
+\newblock \bibinfo{journal}{Nature} \bibinfo{volume}{622},
+  \bibinfo{pages}{156--163}.
+\newblock \DOIprefix\doi{10.1038/s41586-023-06555-x}.
+
+\end{thebibliography}
